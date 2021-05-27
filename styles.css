@@ -1,8 +1,9 @@
 p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #7e7e7e;
 }
 .formField {
-    width: 180px;
+    width: 250px;
     padding: 7px;
     margin-bottom: 10px;
 }
@@ -10,7 +11,7 @@ button {
     background-color:#9dd8d4;
     color: white;
     border: #9dd8d4;
-    width: 120px;
+    width: 100px;
     padding: 7px;
 }
 form {
@@ -18,5 +19,16 @@ form {
     width: 300px;
     margin-left: auto;
     margin-right: auto;
-    
+    padding: 20px;
+    background-color: #F0F0F0;
+    border-style: solid;
+    border-color: #D47677;
+    border-width: 80px;  
+}
+.checkBox {
+    color: #7e7e7e;
+}
+input {
+    border-style: none;
+    color: #7e7e7e;
 }
